@@ -1,0 +1,204 @@
+object fMain: TfMain
+  Left = 1247
+  Height = 448
+  Top = 341
+  Width = 464
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Калькулятор фор Илюха'
+  ClientHeight = 448
+  ClientWidth = 464
+  Color = 3115583
+  DoubleBuffered = False
+  ParentDoubleBuffered = False
+  LCLVersion = '3.2.0.0'
+  object Edit1: TEdit
+    Left = 16
+    Height = 71
+    Top = 16
+    Width = 432
+    AutoSize = False
+    Color = 1809454
+    Enabled = False
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -30
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentFont = False
+    TabOrder = 0
+  end
+  object ClearEntry: TButton
+    Left = 129
+    Height = 58
+    Top = 96
+    Width = 93
+    Caption = 'ce'
+    TabOrder = 1
+    OnClick = ClearEntryClick
+  end
+  object Clear: TButton
+    Left = 242
+    Height = 58
+    Top = 96
+    Width = 93
+    Caption = 'c'
+    TabOrder = 2
+    OnClick = ClearClick
+  end
+  object Seven: TButton
+    Left = 16
+    Height = 58
+    Top = 167
+    Width = 93
+    Caption = '7'
+    Color = 3317810
+    TabOrder = 3
+    OnClick = ClickBut
+  end
+  object Eight: TButton
+    Left = 129
+    Height = 58
+    Top = 167
+    Width = 93
+    Caption = '8'
+    TabOrder = 4
+    OnClick = ClickBut
+  end
+  object Nine: TButton
+    Left = 242
+    Height = 58
+    Top = 167
+    Width = 93
+    Caption = '9'
+    TabOrder = 5
+    OnClick = ClickBut
+  end
+  object Divide: TButton
+    Left = 354
+    Height = 58
+    Top = 304
+    Width = 93
+    Caption = '/'
+    TabOrder = 6
+    OnClick = ClickZnak
+  end
+  object Four: TButton
+    Left = 16
+    Height = 58
+    Top = 237
+    Width = 93
+    Caption = '4'
+    TabOrder = 7
+    OnClick = ClickBut
+  end
+  object Five: TButton
+    Left = 129
+    Height = 58
+    Top = 237
+    Width = 93
+    Caption = '5'
+    TabOrder = 8
+    OnClick = ClickBut
+  end
+  object Six: TButton
+    Left = 242
+    Height = 58
+    Top = 237
+    Width = 93
+    Caption = '6'
+    TabOrder = 9
+    OnClick = ClickBut
+  end
+  object Multiply: TButton
+    Left = 354
+    Height = 58
+    Top = 237
+    Width = 93
+    Caption = '*'
+    TabOrder = 10
+    OnClick = ClickZnak
+  end
+  object One: TButton
+    Left = 16
+    Height = 58
+    Top = 308
+    Width = 93
+    Caption = '1'
+    TabOrder = 11
+    OnClick = ClickBut
+  end
+  object Two: TButton
+    Left = 129
+    Height = 58
+    Top = 308
+    Width = 93
+    Caption = '2'
+    TabOrder = 12
+    OnClick = ClickBut
+  end
+  object Three: TButton
+    Left = 242
+    Height = 58
+    Top = 308
+    Width = 93
+    Caption = '3'
+    TabOrder = 13
+    OnClick = ClickBut
+  end
+  object minus: TButton
+    Left = 354
+    Height = 58
+    Top = 168
+    Width = 93
+    Caption = '-'
+    TabOrder = 14
+    OnClick = ClickZnak
+  end
+  object equal: TButton
+    Left = 354
+    Height = 58
+    Top = 376
+    Width = 93
+    Caption = '='
+    TabOrder = 15
+    OnClick = equalClick
+  end
+  object Null: TButton
+    Left = 16
+    Height = 58
+    Top = 379
+    Width = 206
+    Caption = '0'
+    TabOrder = 16
+    OnClick = ClickBut
+  end
+  object comma: TButton
+    Left = 242
+    Height = 58
+    Top = 379
+    Width = 93
+    Caption = ','
+    TabOrder = 17
+    OnClick = commaClick
+  end
+  object Plus: TButton
+    Left = 354
+    Height = 58
+    Top = 96
+    Width = 93
+    Caption = '+'
+    TabOrder = 18
+    OnClick = ClickZnak
+  end
+  object Clear_Last: TButton
+    Left = 16
+    Height = 58
+    Top = 96
+    Width = 93
+    Caption = '<-'
+    TabOrder = 19
+    OnClick = Clear_LastClick
+  end
+end
